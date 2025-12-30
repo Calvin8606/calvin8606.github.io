@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #d3d6b0;
+  /* Makes width/height calculations include padding */
+}
+
+body {
+  padding: 16px;
+  background-color: black;
+  font-family: inter;
+}
+
+.intro {
+  color: #d3d6b0;
+  font-size: 20px;
+  background: #5e5e5e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+}
+
+
+.project-card {
+  font-size: 16px;
+  color: #d3d6b0;
+  background: #5e5e5e;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.name-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.link {
+  color: #30f261;
+}
+
+
+.discription {
+  display: flex;
+  align-items: center;
+}

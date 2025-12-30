@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Website | Portfolio</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('../background.png');
+    }
+  </style>
+  <header>
+    <h1>Portfolio Website</h1>
+    <div class="meta">
+      <span>By Calvin Chau</span> |
+      <time>12/30/25</time>
+    </div>
+    <p class="summary"><em>This is my Portfolio Website to display cool projects!</em></p>
+  </header>
+
+  <hr>
+
+  <main>
+    <h1 id="go-static-site-generator">Go Static Site Generator</h1>
+<h2 id="why-did-i-start-this-project">Why did I start this project?</h2>
+<ul>
+<li>This project was made so that I can automate writing descriptions of my projects through readme's for my portfolio website. I want to add tons of awesome projects on my portfolio but I dont want to write tons of descriptions!</li>
+<li>I wanted to learn more about parsing data.</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li>Crawler<br />
+I needed a crawler to go though my project directory and collect Readme files</li>
+<li>Parser<br />
+The parse was made to parse markdown information using libraries like Frontmatter, Goldmark, and HTML/template.</li>
+<li>Generator<br />
+The generator produces the HTML file detailing my projects and their descriptions. It also focuses more on the templating aspect.</li>
+</ul>
+
+  </main>
+</body>
+
+</html>
